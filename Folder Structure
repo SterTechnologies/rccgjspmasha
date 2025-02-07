@@ -1,0 +1,38 @@
+rccg-jesus-sanctuary/
+│
+├── public/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   ├── images/
+│   │   └── logo.png
+│   └── videos/
+│       └── sermon1.mp4
+│
+├── views/
+│   ├── index.ejs
+│   ├── live.ejs
+│   ├── events.ejs
+│   ├── sermons.ejs
+│   ├── contact.ejs
+│   ├── login.ejs
+│   ├── register.ejs
+│   ├── dashboard.ejs
+│   └── admin.ejs
+│
+├── routes/
+│   ├── index.js
+│   ├── auth.js
+│   ├── admin.js
+│   └── api.js
+│
+├── models/
+│   ├── User.js
+│   ├── Sermon.js
+│   └── Event.js
+│
+├── app.js
+├── package.json
+├── .env
+└── README.md
